@@ -1,0 +1,56 @@
+*{
+    margin: 0px;  
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  body{
+      font-family: 'Bebas Neue', cursive;
+      line-height: 1.5em;
+      background-color: bisque;  
+  }
+  .contenedorPrincipal{
+      max-width: 10000px;
+      margin: 0 auto;
+  }
+  main{
+      /*Clear both*/
+      background-color: darkkhaki;
+      width: 70%;
+      float:left;
+  }
+  main img{
+      max-width: 100%;
+      float: right;
+  }
+  main section{
+      padding: 30px;
+  } 
+  main section p{
+      text-align: justify;
+      margin-bottom: 16px;
+  }
+  main h1{
+      margin-bottom: 20px;
+      float: center;
+  }
+  footer{
+      width: 70%;
+      clear: both;
+      padding: 60px;
+      background-color: darksalmon;
+      float: left;
+  }
+  footer p{
+      color: aliceblue;
+      text-align: center;
+  }
+  @media screen and (max-width: 800px) {
+      main{
+          width: 100%;
+          display: block;
+      }
+      footer{
+          width: 100%;
+          display: block;
+      }
+  }
